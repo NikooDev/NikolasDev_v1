@@ -1,0 +1,33 @@
+/*
+APP.CSS
+ */
+
+/* Imports */
+@import "@szhsin/react-menu/dist/index.css";
+@import "@szhsin/react-menu/dist/transitions/slide.css";
+@import "libs/tippy.css";
+@import "theme/root.css";
+@import "fonts/quicksand.css";
+@import "global.css";
+@import "animate.css";
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+html {
+	-webkit-overflow-scrolling: touch;
+}
+
+body {
+	background-color: var(--background);
+	font-family: var(--font-family);
+	color: var(--color);
+	overflow-x: hidden;
+}
+
+input, textarea {
+	-webkit-appearance: none;
+}

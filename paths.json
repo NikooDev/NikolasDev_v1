@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@Action/*": ["./src/actions/*"],
+			"@Asset/*": ["./src/assets/*"],
+			"@Auth/*": ["./src/components/auth/*"],
+			"@Component/*": ["./src/components/*"],
+			"@Chat/*": ["./src/components/chat/*"],
+			"@Core/*": ["./src/components/core/*"],
+			"@Config/*": ["./src/config/*"],
+			"@Context/*": ["./src/contexts/*"],
+			"@Helper/*": ["./src/helpers/*"],
+			"@Hook/*": ["./src/hooks/*"],
+			"@Lib/*": ["./src/libs/*"],
+			"@Layout/*": ["./src/components/layouts/*"],
+			"@Reducer/*": ["./src/reducers/*"],
+			"@Service/*": ["./src/services/*"],
+			"@Type/*": ["./src/types/*"],
+			"@Validator/*": ["./src/validators/*"]
+		}
+	}
+}

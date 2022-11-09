@@ -1,0 +1,21 @@
+/*
+ROOT.CSS
+ */
+
+/* Lightmode */
+:root {
+	--background: #f8f8f8;
+	--color: #383838;
+	--color-light: #fff;
+	--color-primary: #4163c7;
+	--gradient: linear-gradient(45deg, #6a98ef, #4961db);
+	--font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Darkmode */
+.dark {
+	--background: #0f1113;
+	--color: #e2e8f0;
+	--color-light: #212529;
+	--color-primary: var(--color);
+}
