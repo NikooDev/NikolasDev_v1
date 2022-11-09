@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development ts-node --project tsconfig.server.json server/index.ts",
     "build": "next build && tsc --project tsconfig.server.json",
-    "start": "yarn build && NODE_ENV=production node dist/index.js",
+    "start": "yarn build && NODE_ENV=production node dist/index.js && next build",
     "lint": "next lint"
   },
   "dependencies": {
